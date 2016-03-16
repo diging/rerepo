@@ -1,0 +1,63 @@
+#wrapper {
+    background-color: #FFFFFF;
+    background-image: none;
+}
+
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar-default {
+    background-color: #9A3737;
+    border-color: #D0C4A8;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+}
+
+.add, .btn-primary, .add:visited, .btn-primary:visited {
+    background-color: #D0C4A8;
+    border-color: #9A9A9A;
+    color: #4C4C4C;
+}
+
+.add:hover, .btn-primary:hover, .add:active, .btn-primary:active {
+    background-color: #F5ECD7;
+    border-color: #9A9A9A;
+    color: #4C4C4C;
+}
+
+.dashboard .panel-default > .dashboard-panel {
+    background-color: #DED6C4;
+    color: #383838;
+}
+
+.dashboard {
+    background-color: #FFFFFF;
+}
+
+div.heading-tile .glyphicon, div.heading-tile .help-icon, div.heading-tile .glyphicon-chevron-right-helper .chevron, .glyphicon-chevron-right-helper div.heading-tile .chevron {
+    background-color: #9A3737;
+}
+
+#footer {
+    background-color: #9A3737;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #D0C4A8;
+}
+
+.dashboard .badge {
+    background-color: #A0B9D4;
+    color: #000;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #D0C4A8;
+    color: #292929;
+}

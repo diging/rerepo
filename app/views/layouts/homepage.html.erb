@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="<%= t("sufia.document_language") %>">
+<head>
+  <%= render partial: "layouts/head_tag_content"%>
+</head>
+
+<body>
+<div class="container" id="wrapper">
+
+      <%= render partial: '/masthead' %>
+      <%= render partial: 'catalog/search_form' %>
+      <%= render partial: '/flash_msg' %>
+      <div id="content-wrapper">
+        <div id="content">
+          <div class="col-xs-12">
+            <%= yield %>
+          </div>
+        </div><!-- /#content -->
+      </div><!-- /#content-wrapper -->
+      <%= render partial: '/footer' %>
+    </div><!-- /#page-positioner -->
+<%= render 'shared/ajax_modal' %>
+</body>
+</html>
